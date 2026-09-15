@@ -334,8 +334,12 @@ body {
 .card {
   background: #f5f7fa;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 1.5rem;
   grid-area: span 1 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 
   /* Neumorphism */
   box-shadow:

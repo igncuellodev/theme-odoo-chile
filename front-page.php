@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<title>Chile Odoo</title>
 <section class="odoo-hero">
     <div class="odoo-hero-content">
         <h1 class="odoo-hero-title">Odoo a la medida de tu empresa, con <span class="highlight"> datos alojados en Chile</span></h1>
@@ -22,26 +22,26 @@
 
         <div class="icons-right">
             <div class="icon3">
-                 <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/camion.svg') ); ?>" alt="shopping cart icon">
+                 <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/camion.svg') ); ?>" alt="icono de camion">
             </div>
 
             <div class="icon4">
-                 <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/warehouse.svg') ); ?>" alt="shopping cart icon">
+                 <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/warehouse.svg') ); ?>" alt="Icono de almacen">
             </div>
         
         </div>
     </div>
 
-    <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/dashboard.webp') ); ?>" alt="" class="dashboard-image">
+    <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/dashboard.webp') ); ?>" alt="Imagen de dashboard de odoo" class="dashboard-image">
 </section>
 
 
 <section class="value-section">
     <ul class="value-tags">
-        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/chile.svg')); ?>" alt="" class="tag-img">Datos alojados 100% en Chile</li>
-        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/certificate.svg')); ?>" alt="" class="tag-img">Cumplimiento normativo</li>
-        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/globe.svg')); ?>" alt="" class="tag-img">+13 millones de usuarios</li>
-        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/hat.svg')); ?>" alt="" class="tag-img">Capacitación de equipo</li>
+        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/chile.svg')); ?>" alt="bandera de chile" class="tag-img">Datos alojados 100% en Chile</li>
+        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/certificate.svg')); ?>" alt="icono de cumplimiento" class="tag-img">Cumplimiento normativo</li>
+        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/globe.svg')); ?>" alt="Icono de mundo" class="tag-img">+13 millones de usuarios</li>
+        <li class="tag"><img src="<?php echo esc_url( get_theme_file_uri ('/assets/images/hat.svg')); ?>" alt="Icono de educación" class="tag-img">Capacitación de equipo</li>
     </ul>
 
 
@@ -69,27 +69,27 @@
         </div>
     <div class="card-grid">
         <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="">
-            <h3 class="card-title">Redundancia de herramientas que no se integran entre sí</h3>
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="Ilustración representativa de redundancia">
+            <h3 class="card-title">Redundancia <span class="highlight">de herramientas</span> que <span class="highlight">no se integran</span> entre sí</h3>
         </div>
          <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="">
-            <h3 class="card-title">Redundancia de herramientas que no se integran entre sí</h3>
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/404.svg')); ?>" alt="Ilustración de error 404 Not Found">
+            <h3 class="card-title">Procesos manuales <span class="highlight">ineficientes y propensos a errores</span></h3>
         </div>
 
          <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="">
-            <h3 class="card-title">Redundancia de herramientas que no se integran entre sí</h3>
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/cotizar.svg')); ?>" alt="Ilustración de cotización">
+            <h3 class="card-title"><span class="highlight">Cotizaste Odoo con</span> un partner y el <span class="highlight">precio te espantó</span></h3>
         </div>
 
         <div class="card-bottom">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="">
-            <h3 class="card-title">Redundancia de herramientas que no se integran entre sí</h3>
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/inicio.svg')); ?>" alt="Ilustración vectorizada que representa el inicio de un empresa">
+            <h3 class="card-title">No sabes por <span class="highlight">dónde partir</span> ni a <span class="highlight">quién recurrir</span></h3>
         </div>
 
         <div class="card-bottom">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="">
-            <h3 class="card-title">Redundancia de herramientas que no se integran entre sí</h3>
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal.svg')); ?>" alt="Ilustración vctorizada de representativa de leyes">
+            <h3 class="card-title">Conoces la <span class="highlight">nueva exigencia legal</span>, pero <span class="highlight">no su impacto en tu</span> empresa.</h3>
         </div>
 
     </div>    
