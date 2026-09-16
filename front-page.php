@@ -93,12 +93,84 @@
         </div>
 
     </div>    
-    
-
     </div>
-
 </section>
 
+
+<section class="steps-section">
+
+    <div class="steps-main-wrapper">
+
+        <div class="steps-left-content">
+
+            <h2 class="white-main-title">
+                Con <span class="highlight">un solo proyecto</span>, resuelve tres desafíos clave y
+                <span class="highlight">simplifica la operación</span> de tu empresa.
+            </h2>
+
+        </div> <!-- steps-left-content -->
+
+
+        <div class="steps-right-content">
+
+
+
+
+
+        <article class="step-wrapper">
+
+        <div class="step-card">
+            <span class="step-card-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/meter.svg')); ?>" alt=""></span>
+            <h3 class="step-card-title">Infraestructura en Chile</h3>
+            <p class="step-card-text">Servidor virtual privado dedicado (VPS) en Chile, con alta disponibilidad, respaldos y ciberseguridad.</p>
+        </div>
+
+        <span class="step-number">1</span>
+        </article>
+
+
+
+
+         <article class="step-wrapper">
+
+        <div class="step-card">
+            <span class="step-card-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/blueprint.svg')); ?>" alt=""></span>
+            <h3 class="step-card-title">Odoo diseñado para tu negocio</h3>
+            <p class="step-card-text">Configuramos Odoo para que se adapte a tu empresa, no al revés.</p>
+        </div>
+
+        <span class="step-number">2</span>
+        </article>
+
+
+
+         <article class="step-wrapper">
+
+        <div class="step-card">
+            <span class="step-card-icon"><img src="<?php echo esc_url(get_theme_file_uri('assets/images/cumplimiento.svg')); ?>" alt=""></span>
+            <h3 class="step-card-title">Capacitación y cumplimiento</h3>
+            <p class="step-card-text">Capacitamos a tu equipo e implementamos herramientas colaborativas y firma digital.</p>
+        </div>
+
+        <span class="step-number-final">3</span>
+        </article>
+
+
+
+
+
+
+
+
+
+        
+        </div> <!-- steps-right-content -->
+
+
+    </div> <!-- steps-main-wrapper -->
+
+
+</section> <!-- steps-section -->
 
 <?php
     if ( have_posts() ) :
