@@ -171,7 +171,7 @@
     </div>
 
     <div class="traits-main-content">
-        <h2 class="dark-main-title">Quien parte ahora, <span class="highlight">llega preparado</span> y en mejores condiciones</h2>
+        <h2 class="dark-main-title">Quien parte ahora, <span class="highlight">llega preparado</span> y en <span class="highlight">mejores condiciones</span></h2>
         <p class="text">Las nuevas leyes de protección de datos y ciberseguridad exigen preparación. Alojar tus datos en Chile te ayuda a cumplir con mayor seguridad.</p>
 
         <ul class="traits-list">
@@ -194,18 +194,54 @@
         </ul>
 
     </div>
-
-
 </div>
-    
+</section>
+
+
+<section class="why-odoo">
+    <div class="why-odoo-main-wrapper">
+        <h2 class="dark-main-title"><span class="highlight">¿Por qué Odoo</span> y no otros?</h2>
+        <div class="why-odoo-grid">
+            <article class="erp-card">
+            <img class="erp-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/manager-logo.webp')); ?>" alt="">
+            <p class="text">Una solución sencilla y económica, aunque con menos funcionalidades para organizaciones de mayor tamaño.</p>
+        </article>
+
+        <article class="erp-card">
+            <img class="erp-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/logo-neubox.svg')); ?>" alt="">
+            <p class="text">Una alternativa accesible y flexible, aunque puede requerir mayor configuración y soporte especializado.</p>
+        </article>
+
+
+        <article class="erp-card">
+            <img class="erp-logo" width="120px" src="<?php echo esc_url(get_theme_file_uri('assets/images/laudus-logo.webp')); ?>" alt="">
+            <p class="text">Una solución enfocada en Chile, aunque puede quedarse corta frente a necesidades de mayor integración.</p>
+        </article>
+
+
+        <article class="erp-card-selected">
+            <div class="selected">
+                <img class="erp-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/odoo-logo.svg')); ?>" alt="">
+                <img class="erp-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/check.svg')); ?>" alt="">
+
+            </div>
+            <p class="text">Un ERP flexible y modular con soporte local, hosting en Chile y una implementación adaptada a tu empresa.</p>
+        </article>
+        </div>
+
+    </div> <!--why-odoo-main wrapper-->
 
 </section>
+
+
 
 
 <section class="whatsapp-button">
     <a class="wsp-button" href="https://www.tecnoinver.cl"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
-
 </section>
+
+
+
 
 
 
