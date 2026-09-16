@@ -34,6 +34,7 @@ body {
   width: 100%;
   padding: 1rem;
   position: fixed;
+  z-index: 9999;
 }
 
 .odoo-nav {
@@ -97,8 +98,8 @@ body {
   flex-direction: column;
   background: linear-gradient(
     180deg,
-    var(--frost-500, rgba(245, 247, 250, 0.24)) 37.16%,
-    var(--teal-500, rgba(7, 182, 212, 0.24)) 100%
+    rgba(245, 247, 250, 0.24) 37.16%,
+    rgba(7, 182, 212, 0.6) 100%
   );
 
   overflow: hidden;
@@ -320,7 +321,7 @@ body {
 }
 
 .text {
-  color: var(--charcoal-400);
+  color: var(--charcoal-500);
   font-size: var(--text-xl);
   margin-top: 24px;
   line-height: 1.75rem;
@@ -501,6 +502,71 @@ body {
   transform: rotate(90deg);
   top: 160px;
 }
+
+.traits {
+  height: 675px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(245, 247, 250, 0.24) 37.16%,
+    rgba(7, 182, 212, 0.4) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traits-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.traits-main-content {
+  width: 580px;
+}
+
+.traits-list {
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.trait {
+  display: flex;
+  gap: 1rem;
+  color: var(--charcoal-500);
+  font-size: var(--text-xl);
+  align-items: flex-start;
+}
+
+.whatsapp-button {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.wsp-button {
+  position: fixed;
+  top: 90%;
+  right: 2%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  border-radius: 50px;
+
+  /* neu2 */
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 1090px) {
   .odoo-hero {
     padding: 2rem;

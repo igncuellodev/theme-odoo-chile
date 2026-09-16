@@ -153,17 +153,7 @@
         </div>
 
         <span class="step-number-final">3</span>
-        </article>
-
-
-
-
-
-
-
-
-
-        
+        </article>    
         </div> <!-- steps-right-content -->
 
 
@@ -171,6 +161,53 @@
 
 
 </section> <!-- steps-section -->
+
+
+<section class="traits">
+
+<div class="traits-wrapper">
+    <div class="traits-image-wrapper">
+        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/traits.svg')) ?>" alt="">
+    </div>
+
+    <div class="traits-main-content">
+        <h2 class="dark-main-title">Quien parte ahora, <span class="highlight">llega preparado</span> y en mejores condiciones</h2>
+        <p class="text">Las nuevas leyes de protección de datos y ciberseguridad exigen preparación. Alojar tus datos en Chile te ayuda a cumplir con mayor seguridad.</p>
+
+        <ul class="traits-list">
+            <li class="trait">
+                    <img src="<?php echo esc_url(get_theme_file_uri('assets/images/arrow.svg')) ?>" alt="">Datos alojados en Chile, bajo legislación chilena.
+            </li>
+            <li class="trait">
+                <img src="<?php echo esc_url(get_theme_file_uri('assets/images/arrow.svg')) ?>" alt="">
+                Respaldo, cifrado y control de accesos incorporado.
+            </li>
+            <li class="trait">
+                <img src="<?php echo esc_url(get_theme_file_uri('assets/images/arrow.svg')) ?>" alt="">
+                Capacitación de tu equipo en seguridad digital.
+            </li>
+            <li class="trait">
+                <img src="<?php echo esc_url(get_theme_file_uri('assets/images/arrow.svg')) ?>" alt="">
+                Acompañamiento continuo, no un proyecto que se entrega y se olvida.
+            </li>
+
+        </ul>
+
+    </div>
+
+
+</div>
+    
+
+</section>
+
+
+<section class="whatsapp-button">
+    <a class="wsp-button" href="https://www.tecnoinver.cl"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
+
+</section>
+
+
 
 <?php
     if ( have_posts() ) :
