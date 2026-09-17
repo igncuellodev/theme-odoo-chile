@@ -4,7 +4,7 @@
     <div class="odoo-hero-content">
         <h1 class="odoo-hero-title">Odoo a la medida de tu empresa, con <span class="highlight"> datos alojados en Chile</span></h1>
         <p class="text-hero">Odoo con licencias, hosting dedicado en Chile, implementación y capacitación a medida. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
-        <a class="odoo-button hero-button">Quiero mi diagnostico gratuito</a>
+        <a class="odoo-button hero-button">Quiero mi diagnóstico gratuito</a>
         <p class="text-hero">Sin costo. Sin compromiso. 20 minutos con un especialista.</p>
     </div>
 
@@ -234,10 +234,125 @@
 </section>
 
 
+<section class="carousel-section">
+
+<h2 class="dark-main-title"><span class="highlight">Todo</span> lo que necesitas <span class="highlight">en un mismo entorno</span></h2>
+
+<div class="carousel">
+
+
+  <div class="carousel-track">
+
+    <!-- Grupo 1 -->
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt=""></span>
+        
+        <p class="text">Sitio Web</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt=""></span>
+        
+        <p class="text">Documentos</p>
+    </div>
+    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt=""></span>
+        
+        <p class="text">Soporte</p></div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt=""></span>
+        
+        <p class="text">E-mail MKT</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt=""></span>
+        
+        <p class="text">Suscripciones</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt=""></span>
+        
+        <p class="text">Puntos de venta</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt=""></span>
+        
+        <p class="text">Manufactura</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt=""></span>
+        
+        <p class="text">RRHH</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt=""></span>
+        
+        <p class="text">Finanzas</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt=""></span>
+        
+        <p class="text">Firmas</p>
+    </div>
+
+   <!-- Grupo 1 -->
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt=""></span>
+        
+        <p class="text">Sitio Web</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt=""></span>
+        
+        <p class="text">Documentos</p>
+    </div>
+    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt=""></span>
+        
+        <p class="text">Soporte</p></div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt=""></span>
+        
+        <p class="text">E-mail MKT</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt=""></span>
+        
+        <p class="text">Suscripciones</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt=""></span>
+        
+        <p class="text">Puntos de venta</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt=""></span>
+        
+        <p class="text">Manufactura</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt=""></span>
+        
+        <p class="text">RRHH</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt=""></span>
+        
+        <p class="text">Finanzas</p>
+    </div>
+    <div class="carousel-item">
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt=""></span>
+        
+        <p class="text">Firmas</p>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+ 
 
 
 <section class="whatsapp-button">
-    <a class="wsp-button" href="https://www.tecnoinver.cl"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
+    <a class="wsp-button" href="https://wa.me/56988916741"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
 </section>
 
 
