@@ -629,6 +629,7 @@ body {
   align-items: center;
   background: #f5f7fa;
   border-radius: 50px;
+  z-index: 9999;
 
   /* neu2 */
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
