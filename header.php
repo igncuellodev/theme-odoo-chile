@@ -18,11 +18,11 @@
     <a href="<?php echo esc_url( home_url('/') ); ?>" class="odoo-logo">
       <img 
     src="<?php echo esc_url( get_theme_file_uri('/assets/images/ChileOdoo.svg') ); ?>" 
-    alt="ChileOdoo">
+    alt="ChileOdoo" class="odoo-logo-2">
     </a>
     <ul class="odoo-nav-list">
       <li class="odoo-list-item">
-    <a href="#contacto" class="odoo-link">Contacto</a></li>
+    <a href="#contacto" class="odoo-link inactive">Contacto</a></li>
       <li class="odoo-list-item"><a href="#" class="odoo-button">Diagnóstico gratis</a></li>
     </ul>
   </nav>

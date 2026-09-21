@@ -167,7 +167,7 @@
 
 <div class="traits-wrapper">
     <div class="traits-image-wrapper">
-        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/traits.svg')) ?>" alt="">
+        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/traits.svg')) ?>" alt="" class="traits-image">
     </div>
 
     <div class="traits-main-content">

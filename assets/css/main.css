@@ -5,11 +5,11 @@
   --charcoal-500: #3c4c5b;
   --charcoal-400: #63707c;
   --teal-500: #07b6d4;
-  --text-5xl: 3rem;
-  --text-4xl: 2.25rem;
-  --text-2xl: 1.5rem;
-  --text-xl: 1.25rem;
-  --text-lg: 1rem;
+  --text-5xl: clamp(2.125rem, 8vw, 2.5rem);
+  --text-4xl: clamp(1.75rem, 6vw, 2.25rem);
+  --text-2xl: clamp(1.25rem, 5vw, 1.5rem);
+  --text-xl: clamp(1.05rem, 4vw, 1.25rem);
+  --text-lg: clamp(0.9375rem, 3.5vw, 1rem);
 }
 
 * {
@@ -800,6 +800,183 @@ footer {
     display: none;
   }
   .dashboard-image {
+    width: 100%;
+  }
+}
+
+/*==================================================
+================ Mobile ============================*/
+
+@media (max-width: 490px) {
+  .odoo-hero {
+    padding: 0;
+    justify-content: start;
+    height: fit-content;
+  }
+
+  .odoo-hero-content {
+    margin-top: 180px;
+  }
+
+  .odoo-hero-title {
+    padding: 0 1rem;
+  }
+
+  .text-hero {
+    padding: 0 1rem;
+  }
+
+  .dashboard-image {
+    margin-top: 0;
+    border-radius: 0 0 0 0;
+    margin-top: 64px;
+  }
+
+  .odoo-logo {
+    width: fit-content;
+  }
+
+  .odoo-logo-2 {
+    width: 100px;
+    height: auto;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .value-section {
+    padding: 0 1rem;
+  }
+  .value-tags {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .problem-section {
+    padding: 0 1rem;
+  }
+
+  .problem-text {
+    width: 100%;
+  }
+
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    gap: 32px;
+    text-align: center;
+  }
+
+  .card-bottom {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .steps-section {
+    height: fit-content;
+    background:
+      linear-gradient(
+        178deg,
+        rgba(25, 32, 38, 0.25) -23.73%,
+        var(--charcoal-900, #192026) 50%
+      ),
+      url("../images/steps-bg.webp") lightgray 0px -701.035px / 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .steps-main-wrapper {
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 64px;
+  }
+
+  .steps-left-content {
+    width: 100%;
+  }
+
+  .steps-right-content {
+    flex-direction: column;
+  }
+
+  .step-wrapper {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .step-number {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .step-number-final {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .step-card {
+    width: 80%;
+  }
+
+  .traits {
+    height: fit-content;
+    padding: 3rem 1rem;
+  }
+
+  .traits-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .traits-image {
+    width: 90%;
+  }
+
+  .traits-main-content {
+    width: 100%;
+  }
+
+  .traits-list {
+    width: 100%;
+  }
+
+  .white-text {
+    width: 100%;
+  }
+
+  footer {
+    padding: 0rem 1rem 3rem 1rem;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .footer-left {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .footer-right {
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer-list {
+    gap: 1rem;
+  }
+
+  .text {
     width: 100%;
   }
 }
