@@ -46,6 +46,7 @@
 
 
     <ul class="certifications">
+        <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/anci.svg')); ?>"></li>
         <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/iso.webp')); ?>"></li>
         <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-4.webp')); ?>"></li>
         <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-3.webp')); ?>"></li>
@@ -53,6 +54,8 @@
         <li class="certifcate"><img width="100px"  src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcse.webp')); ?>"></li>
         <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcre.webp')); ?>"></li>
         <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcna.webp')); ?>"></li>
+
+    
         
     </ul>
 
@@ -167,7 +170,12 @@
 
 <div class="traits-wrapper">
     <div class="traits-image-wrapper">
-        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/traits.svg')) ?>" alt="" class="traits-image">
+        <img src="<?php echo esc_url(get_theme_file_uri('assets/images/traits.svg')); ?>" alt="" class="traits-image">
+        <div class="law-traits">
+            
+            <span class="law-trait text"><img height="36px" src="<?php echo esc_url(get_theme_file_uri('assets/images/check.svg')) ?>" alt="">Ley de ciberseguridad</span>
+            <span class="law-trait text"><img height="36px" src="<?php echo esc_url(get_theme_file_uri('assets/images/check.svg')) ?>" alt="">Protección de datos</span>
+        </div>
     </div>
 
     <div class="traits-main-content">
@@ -236,7 +244,7 @@
 
 <section class="carousel-section">
 
-<h2 class="dark-main-title"><span class="highlight">Todo</span> lo que necesitas <span class="highlight">en un mismo entorno</span></h2>
+<h2 class="dark-main-title carousel-title"><span class="highlight">Todo</span> lo que necesitas <span class="highlight">en un mismo entorno</span></h2>
 
 <div class="carousel">
 

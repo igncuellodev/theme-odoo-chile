@@ -5,7 +5,7 @@
   --charcoal-500: #3c4c5b;
   --charcoal-400: #63707c;
   --teal-500: #07b6d4;
-  --text-5xl: clamp(2.125rem, 8vw, 2.5rem);
+  --text-5xl: clamp(2.125rem, 8vw, 3rem);
   --text-4xl: clamp(1.75rem, 6vw, 2.25rem);
   --text-2xl: clamp(1.25rem, 5vw, 1.5rem);
   --text-xl: clamp(1.05rem, 4vw, 1.25rem);
@@ -283,6 +283,7 @@ body {
   justify-content: space-between;
   width: 100%;
   max-width: 900px;
+  list-style-type: none;
 }
 
 .tag {
@@ -545,6 +546,17 @@ body {
   align-items: flex-start;
 }
 
+.law-traits {
+  display: flex;
+  gap: 2rem;
+}
+
+.law-trait {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .whatsapp-button {
   width: 100%;
   display: flex;
@@ -804,10 +816,8 @@ footer {
   }
 }
 
-/*==================================================
-================ Mobile ============================*/
-
-@media (max-width: 490px) {
+/*================================================== ================ Mobile ============================*/
+@media (max-width: 720px) {
   .odoo-hero {
     padding: 0;
     justify-content: start;
@@ -847,11 +857,20 @@ footer {
 
   .value-section {
     padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
   }
   .value-tags {
     flex-wrap: wrap;
     justify-content: start;
+    justify-content: center;
     gap: 1rem;
+  }
+
+  .certifications {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+    margin-top: 32px;
   }
 
   .problem-section {
@@ -978,5 +997,18 @@ footer {
 
   .text {
     width: 100%;
+  }
+
+  .why-odoo {
+    padding: 0 1rem;
+  }
+
+  .carousel::before,
+  .carousel::after {
+    width: 80px;
+  }
+
+  .carousel-section {
+    padding: 0 1rem;
   }
 }
