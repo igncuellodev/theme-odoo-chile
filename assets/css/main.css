@@ -758,7 +758,6 @@ footer {
   background:
     linear-gradient(176deg, #0ea5e9 14.29%, #09b2d9 117.99%, #07b6d4 153.4%),
     var(--frost-500, #f5f7fa);
-  margin-top: 128px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -814,6 +813,25 @@ footer {
   transform: scale(1.08);
 }
 
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  margin-top: 128px;
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%),
+    url("../images/cta-background.webp") lightgray 50% / cover no-repeat;
+  gap: 20px;
+}
+
+.cta-title {
+  width: 412px;
+  text-align: center;
+}
+
 @media (max-width: 1199px) {
   .odoo-hero {
     padding: 2rem;
@@ -858,6 +876,10 @@ footer {
 
   .why-odoo-grid {
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+
+  footer {
+    padding: 3rem 1rem;
   }
 }
 

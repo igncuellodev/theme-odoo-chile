@@ -384,4 +384,10 @@
     ?>
 
 
+<section class="cta-section">
+    <h2 class="white-main-title cta-title"><span class="highlight">Mejora</span> la operación de tu empresa <span class="highlight">con Odoo</span></h2>
+    <a class="odoo-button hero-button">Quiero mi diagnóstico gratuito</a>
+</section>
+
+
 <?php get_footer(); ?>
