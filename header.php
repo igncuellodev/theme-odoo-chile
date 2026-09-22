@@ -22,8 +22,8 @@
     </a>
     <ul class="odoo-nav-list">
       <li class="odoo-list-item">
-    <a href="#contacto" class="odoo-link inactive">Contacto</a></li>
-      <li class="odoo-list-item"><a href="#" class="odoo-button">Diagnóstico gratis</a></li>
+    <a href="#contacto" class="odoo-link inactive" aria-label="Ir al formulario de contacto">Contacto</a></li>
+      <li class="odoo-list-item"><a href="https://wa.me/56988916741" class="odoo-button" aria-label="Enviar mensaje para solicitar diagnóstico">Diagnóstico gratis</a></li>
     </ul>
   </nav>
   

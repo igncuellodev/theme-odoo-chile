@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/dashboard.webp') ); ?>" alt="Imagen de dashboard de odoo" class="dashboard-image">
+    <img src="<?php echo esc_url( get_theme_file_uri('/assets/images/dashboard.webp') ); ?>" alt="Imagen de dashboard de odoo" class="dashboard-image" fetchpriority="high">
 </section>
 
 
@@ -46,14 +46,14 @@
 
 
     <ul class="certifications">
-        <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/anci.svg')); ?>"></li>
-        <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/iso.webp')); ?>"></li>
-        <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-4.webp')); ?>"></li>
-        <li class="certifcate"><img height="60px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-3.webp')); ?>"></li>
-        <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/itil.webp')); ?>"></li>
-        <li class="certifcate"><img width="100px"  src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcse.webp')); ?>"></li>
-        <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcre.webp')); ?>"></li>
-        <li class="certifcate"><img width="100px" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcna.webp')); ?>"></li>
+        <li class="certifcate"><img width="100px" alt="Certificación operador vital ANCI" src="<?php echo esc_url(get_theme_file_uri('/assets/images/anci.svg')); ?>"></li>
+        <li class="certifcate"><img height="60px" alt="Certificación ISO 27001" src="<?php echo esc_url(get_theme_file_uri('/assets/images/iso.webp')); ?>"></li>
+        <li class="certifcate"><img height="60px" alt="Certificación Tier 4" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-4.webp')); ?>"></li>
+        <li class="certifcate"><img height="60px" alt="Certificación Tier 3" src="<?php echo esc_url(get_theme_file_uri('/assets/images/tier-3.webp')); ?>"></li>
+        <li class="certifcate"><img width="100px" alt="Certificación Itil" src="<?php echo esc_url(get_theme_file_uri('/assets/images/itil.webp')); ?>"></li>
+        <li class="certifcate"><img width="100px" alt="Certificación Microtik MTCSE" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcse.webp')); ?>"></li>
+        <li class="certifcate"><img width="100px" alt="Certificación Microtik MTCRE" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcre.webp')); ?>"></li>
+        <li class="certifcate"><img width="100px" alt="Certificación Microtik MTCNA" src="<?php echo esc_url(get_theme_file_uri('/assets/images/mtcna.webp')); ?>"></li>
 
     
         
@@ -72,26 +72,26 @@
         </div>
     <div class="card-grid">
         <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" alt="Ilustración representativa de redundancia">
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/redundancia.svg')); ?>" loading="lazy" alt="Ilustración representativa de redundancia">
             <h3 class="card-title">Redundancia <span class="highlight">de herramientas</span> que <span class="highlight">no se integran</span> entre sí</h3>
         </div>
          <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/404.svg')); ?>" alt="Ilustración de error 404 Not Found">
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/404.svg')); ?>" loading="lazy" alt="Ilustración de error 404 Not Found">
             <h3 class="card-title">Procesos manuales <span class="highlight">ineficientes y propensos a errores</span></h3>
         </div>
 
          <div class="card">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/cotizar.svg')); ?>" alt="Ilustración de cotización">
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/cotizar.svg')); ?>" loading="lazy" alt="Ilustración de cotización">
             <h3 class="card-title"><span class="highlight">Cotizaste Odoo con</span> un partner y el <span class="highlight">precio te espantó</span></h3>
         </div>
 
         <div class="card-bottom">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/inicio.svg')); ?>" alt="Ilustración vectorizada que representa el inicio de un empresa">
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/inicio.svg')); ?>" loading="lazy" alt="Ilustración vectorizada que representa el inicio de un empresa">
             <h3 class="card-title">No sabes por <span class="highlight">dónde partir</span> ni a <span class="highlight">quién recurrir</span></h3>
         </div>
 
         <div class="card-bottom">
-            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal.svg')); ?>" alt="Ilustración vctorizada de representativa de leyes">
+            <img src="<?php echo esc_url(get_theme_file_uri('assets/images/legal.svg')); ?>" loading="lazy" alt="Ilustración vctorizada de representativa de leyes">
             <h3 class="card-title">Conoces la <span class="highlight">nueva exigencia legal</span>, pero <span class="highlight">no su impacto en tu</span> empresa.</h3>
         </div>
 
@@ -106,8 +106,8 @@
 
         <div class="steps-left-content">
             <div class="steps-logos">
-                <img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" alt="" width="160px">
-                <img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" alt="" width="140px">
+                <img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" loading="lazy" alt="Logotipo Tecnoinver" width="160px">
+                <img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" loading="lazy" alt="Logotipo Solisum" width="140px">
             </div>
 
             <h2 class="white-main-title">
@@ -364,7 +364,7 @@
 
 
 <section class="whatsapp-button">
-    <a class="wsp-button" href="https://wa.me/56988916741"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
+    <a class="wsp-button" href="https://wa.me/56988916741" aria-label="Contactar por whatsapp"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
 </section>
 
 
