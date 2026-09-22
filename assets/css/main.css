@@ -411,6 +411,10 @@ body {
   width: 600px;
 }
 
+.tecno-logo {
+  width: 200px;
+}
+
 .steps-right-content {
   display: flex;
   flex-direction: column;
@@ -503,6 +507,13 @@ body {
   background-color: var(--charcoal-400);
   transform: rotate(90deg);
   top: 160px;
+}
+
+.steps-logos,
+.footer-logos {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 20px;
 }
 
 .traits {
@@ -766,7 +777,6 @@ footer {
   height: 300px;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
 }
 .footer-right {
   width: 48%;
@@ -804,7 +814,7 @@ footer {
   transform: scale(1.08);
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1199px) {
   .odoo-hero {
     padding: 2rem;
   }
@@ -813,6 +823,245 @@ footer {
   }
   .dashboard-image {
     width: 100%;
+  }
+
+  .steps-main-wrapper {
+    padding: 0 2rem;
+    gap: 2rem;
+  }
+
+  .value-section {
+    padding: 0 2rem;
+  }
+
+  .problem-section {
+    padding: 0 2rem;
+  }
+
+  .traits {
+    padding: 0 2rem;
+  }
+  .traits-image {
+    width: 90%;
+  }
+
+  .traits-main-content {
+    width: 50%;
+  }
+
+  .traits-list {
+    width: 100%;
+  }
+  .why-odoo {
+    padding: 0 2rem;
+  }
+
+  .why-odoo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+}
+
+@media (max-width: 880px) {
+  .odoo-hero {
+    padding: 0;
+    justify-content: start;
+    height: fit-content;
+  }
+
+  .odoo-hero-content {
+    margin-top: 180px;
+  }
+
+  .odoo-hero-title {
+    padding: 0 1rem;
+  }
+
+  .text-hero {
+    padding: 0 1rem;
+  }
+
+  .dashboard-image {
+    margin-top: 0;
+    border-radius: 0 0 0 0;
+    margin-top: 64px;
+  }
+
+  .odoo-logo {
+    width: fit-content;
+  }
+
+  .odoo-logo-2 {
+    width: 100px;
+    height: auto;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .value-section {
+    padding: 0 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .value-tags {
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .certifications {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 32px;
+    margin-top: 32px;
+  }
+
+  .problem-section {
+    padding: 0 4rem;
+  }
+
+  .problem-text {
+    width: 100%;
+  }
+
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    gap: 32px;
+    text-align: center;
+  }
+
+  .card-bottom {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .steps-section {
+    height: fit-content;
+    background:
+      linear-gradient(
+        178deg,
+        rgba(25, 32, 38, 0.25) -23.73%,
+        var(--charcoal-900, #192026) 50%
+      ),
+      url("../images/steps-bg.webp") lightgray 0px -701.035px / 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .steps-main-wrapper {
+    flex-direction: column;
+    padding: 3rem 4rem;
+    gap: 64px;
+  }
+
+  .steps-left-content {
+    width: 100%;
+  }
+
+  .tecno-logo {
+    width: 200px;
+  }
+
+  .solisum-logo {
+    width: 160px;
+  }
+
+  .steps-right-content {
+    flex-direction: column;
+  }
+
+  .step-wrapper {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .step-number {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .step-number-final {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .step-card {
+    width: 80%;
+  }
+
+  .traits {
+    height: fit-content;
+    padding: 3rem 4rem;
+  }
+
+  .traits-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .traits-image {
+    width: 90%;
+  }
+
+  .traits-main-content {
+    width: 100%;
+  }
+
+  .traits-list {
+    width: 100%;
+  }
+
+  .white-text {
+    width: 100%;
+  }
+
+  footer {
+    padding: 0rem 1rem 3rem 1rem;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .footer-left {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .footer-right {
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer-list {
+    gap: 1rem;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .why-odoo {
+    padding: 0 1rem;
+  }
+
+  .carousel::before,
+  .carousel::after {
+    width: 80px;
+  }
+
+  .carousel-section {
+    padding: 0 1rem;
   }
 }
 
@@ -920,6 +1169,14 @@ footer {
     width: 100%;
   }
 
+  .tecno-logo {
+    width: 200px;
+  }
+
+  .solisum-logo {
+    width: 160px;
+  }
+
   .steps-right-content {
     flex-direction: column;
   }
@@ -1010,5 +1267,15 @@ footer {
 
   .carousel-section {
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .odoo-logo-2 {
+    width: 72px;
+  }
+
+  .odoo-button {
+    font-size: 0.8rem;
   }
 }

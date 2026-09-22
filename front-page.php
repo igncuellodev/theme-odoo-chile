@@ -105,6 +105,10 @@
     <div class="steps-main-wrapper">
 
         <div class="steps-left-content">
+            <div class="steps-logos">
+                <img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" alt="" width="160px">
+                <img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" alt="" width="140px">
+            </div>
 
             <h2 class="white-main-title">
                 Con <span class="highlight">un solo proyecto</span>, resuelve tres desafíos clave y

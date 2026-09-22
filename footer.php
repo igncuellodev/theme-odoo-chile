@@ -3,9 +3,12 @@
 <footer>
     <div class="footer-wrapper">
         <div class="footer-left">
-            <a class="logo">LOGO</a>
+             <div class="footer-logos">
+                <img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" alt="" width="220px">
+                <img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" alt="" width="160px">
+            </div>
 
-            <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores aperiam saepe harum nobis quaerat distinctio magni accusantium sed, omnis eius, in ad vero corporis velit eum placeat est molestiae molestias.</p>
+            <p class="white-text">Odoo con licencias, hosting dedicado en Chile, implementación y capacitación a medida. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
 
         </div>
 
