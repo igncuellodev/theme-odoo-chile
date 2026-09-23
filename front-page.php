@@ -4,7 +4,7 @@
     <div class="odoo-hero-content">
         <h1 class="odoo-hero-title">Odoo a la medida de tu empresa, con <span class="highlight"> datos alojados en Chile</span></h1>
         <p class="text-hero">Odoo con licencias, hosting dedicado en Chile, implementación y capacitación a medida. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
-        <a class="odoo-button hero-button">Quiero mi diagnóstico gratuito</a>
+        <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" >Quiero mi diagnóstico gratuito</a>
         <p class="text-hero">Sin costo. Sin compromiso. 20 minutos con un especialista.</p>
     </div>
 
@@ -106,8 +106,8 @@
 
         <div class="steps-left-content">
             <div class="steps-logos">
-                <img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" loading="lazy" alt="Logotipo Tecnoinver" width="160px">
-                <img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" loading="lazy" alt="Logotipo Solisum" width="140px">
+                <a href="https://www.tecnoinver.cl/" target="_blank" class="logo-link"><img class="tecno-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/tecnoinver-logo.svg')) ?>" loading="lazy" alt="Logotipo Tecnoinver" width="160px"></a>
+                <a href="https://www.solisum.cl/" target="_blank"><img class="solisum-logo" src="<?php echo esc_url(get_theme_file_uri('assets/images/solisum-logo.webp')) ?>" loading="lazy" alt="Logotipo Solisum" width="140px"></a>
             </div>
 
             <h2 class="white-main-title">
@@ -364,7 +364,7 @@
 
 
 <section class="whatsapp-button">
-    <a class="wsp-button" href="https://wa.me/56988916741" aria-label="Contactar por whatsapp"><img height="40px" width="40px" src="<?php echo esc_url(get_theme_file_uri('assets/images/wsplogo.svg')) ?>" alt=""></a>
+    <a class="wsp-button" href="https://wa.me/56988916741" aria-label="Contactar por whatsapp"><img height="60px" width="60px" src="<?php echo esc_url(get_theme_file_uri('assets/images/whatsapp.svg')) ?>" alt=""></a>
 </section>
 
 
@@ -386,7 +386,7 @@
 
 <section class="cta-section">
     <h2 class="white-main-title cta-title"><span class="highlight">Mejora</span> la operación de tu empresa <span class="highlight">con Odoo</span></h2>
-    <a class="odoo-button hero-button">Quiero mi diagnóstico gratuito</a>
+    <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo">Quiero mi diagnóstico gratuito</a>
 </section>
 
 

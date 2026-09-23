@@ -89,6 +89,12 @@ body {
 
   text-decoration: none;
   color: var(--frost-500);
+  transition: ease-in 300ms;
+}
+
+.odoo-button:hover {
+  opacity: 0.6;
+  transform: scale(1.02);
 }
 
 .odoo-hero {
@@ -415,6 +421,12 @@ body {
   width: 200px;
 }
 
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .steps-right-content {
   display: flex;
   flex-direction: column;
@@ -549,6 +561,10 @@ body {
   flex-direction: column;
 }
 
+.traits-image {
+  width: 100%;
+}
+
 .trait {
   display: flex;
   gap: 1rem;
@@ -651,12 +667,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f5f7fa;
   border-radius: 50px;
   z-index: 9999;
+  transition: ease-in 300ms;
+}
 
-  /* neu2 */
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+.wsp-button:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
 }
 
 .carousel-section {
@@ -811,6 +829,10 @@ footer {
 
 .footer-item:hover {
   transform: scale(1.08);
+}
+
+.footer-logos {
+  flex-wrap: wrap;
 }
 
 .cta-section {
@@ -1290,6 +1312,18 @@ footer {
   .carousel-section {
     padding: 0 1rem;
   }
+
+  .cta-title {
+    width: 100%;
+  }
+
+  .tecno-logo {
+    width: 160px;
+  }
+
+  .solisum-logo {
+    width: 140px;
+  }
 }
 
 @media (max-width: 370px) {
@@ -1299,5 +1333,9 @@ footer {
 
   .odoo-button {
     font-size: 0.8rem;
+  }
+
+  .cta-title {
+    width: 100%;
   }
 }
