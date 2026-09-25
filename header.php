@@ -23,7 +23,7 @@
     <ul class="odoo-nav-list">
       <li class="odoo-list-item">
     <a href="#contacto" class="odoo-link inactive" aria-label="Ir al formulario de contacto">Contacto</a></li>
-      <li class="odoo-list-item"><a href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" class="odoo-button" aria-label="Enviar mensaje para solicitar diagnóstico">Diagnóstico gratis</a></li>
+      <li class="odoo-list-item"><a href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" target="_blank" class="odoo-button" aria-label="Enviar mensaje para solicitar diagnóstico">Diagnóstico gratis</a></li>
     </ul>
   </nav>
   

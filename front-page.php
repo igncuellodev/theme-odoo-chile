@@ -4,7 +4,7 @@
     <div class="odoo-hero-content">
         <h1 class="odoo-hero-title">Odoo a la medida de tu empresa, con <span class="highlight"> datos alojados en Chile</span></h1>
         <p class="text-hero">Odoo con licencias, hosting dedicado en Chile, implementación y capacitación a medida. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
-        <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" >Quiero mi diagnóstico gratuito</a>
+        <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" target="_blank">Quiero mi diagnóstico gratuito</a>
         <p class="text-hero">Sin costo. Sin compromiso. 20 minutos con un especialista.</p>
     </div>
 
@@ -257,100 +257,100 @@
 
     <!-- Grupo 1 -->
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt="Icono de sitio web"></span>
         
         <p class="text">Sitio Web</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt="Icono de documentos"></span>
         
         <p class="text">Documentos</p>
     </div>
-    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt=""></span>
+    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt="icono de soporte"></span>
         
         <p class="text">Soporte</p></div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt="Icono de emails"></span>
         
         <p class="text">E-mail MKT</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt="Icono de suscripciones"></span>
         
         <p class="text">Suscripciones</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt="Icono de ventas"></span>
         
         <p class="text">Puntos de venta</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt="Iconos de manufactura"></span>
         
         <p class="text">Manufactura</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt="Icono de recursos humanos"></span>
         
         <p class="text">RRHH</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt="Icono de finanzas"></span>
         
         <p class="text">Finanzas</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt="Icono de firma"></span>
         
         <p class="text">Firmas</p>
     </div>
 
    <!-- Grupo 1 -->
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/website.svg')); ?>" alt="Icono de sitio web"></span>
         
         <p class="text">Sitio Web</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/documentos.svg')); ?>" alt="Icono de documentos"></span>
         
         <p class="text">Documentos</p>
     </div>
-    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt=""></span>
+    <div class="carousel-item"><span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/soporte.svg')); ?>" alt="Iconos de soporte"></span>
         
         <p class="text">Soporte</p></div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/email.svg')); ?>" alt="Icono de emails"></span>
         
         <p class="text">E-mail MKT</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/subs.svg')); ?>" alt="Icono de suscripciones"></span>
         
         <p class="text">Suscripciones</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/venta.svg')); ?>" alt="Icono de ventas"></span>
         
         <p class="text">Puntos de venta</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/manufactura.svg')); ?>" alt="Icono de manufactura"></span>
         
         <p class="text">Manufactura</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/rrhh.svg')); ?>" alt="Icono de recursos humanos"></span>
         
         <p class="text">RRHH</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/finanzas.svg')); ?>" alt="Icono de finanzas"></span>
         
         <p class="text">Finanzas</p>
     </div>
     <div class="carousel-item">
-        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt=""></span>
+        <span class="icon"><img height="46px" width="46px" src="<?php echo esc_url(get_theme_file_uri('assets/images/firma.svg')); ?>" alt="Icono de firma"></span>
         
         <p class="text">Firmas</p>
     </div>
@@ -386,7 +386,7 @@
 
 <section class="cta-section">
     <h2 class="white-main-title cta-title"><span class="highlight">Mejora</span> la operación de tu empresa <span class="highlight">con Odoo</span></h2>
-    <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo">Quiero mi diagnóstico gratuito</a>
+    <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" target="_blank">Quiero mi diagnóstico gratuito</a>
 </section>
 
 

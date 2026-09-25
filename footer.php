@@ -15,7 +15,23 @@
         <div class="footer-right">
             <ul class="footer-list">
                 <li class="footer-item"><a href="#" class="footer-link">Política de privacidad</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Odoo Chile</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">ERP</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Odoo Sign</a></li>
+                <li class="footer-item"><a href="https://www.tecnoinver.cl/" target="_blank" class="footer-link">Tecnoinver</a></li>
+                <li class="footer-item"><a href="https://www.solisum.cl/" class="footer-link">Datacenter en Chile</a></li>
+
+            </ul>
+
+            <ul class="footer-list">
                 <li class="footer-item"><a href="#" class="footer-link">Términos y condiciones</a></li>
+                <li class="footer-item"><a href="#" class="footer-link" target="_blank">Solisum</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Consultor Odoo Chile</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">implementación Odoo Chile</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">ERP Odoo Chile</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Partner Odoo Chile</a></li>
+            
+        
             </ul>
 
         </div>
