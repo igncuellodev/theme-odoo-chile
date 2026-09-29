@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
 
-    <h1>Mi theme funciona 🚀</h1>
+    <h1 style="color:black">¿Que haces acá? 🐇</h1>
 
     <?php wp_footer(); ?>
 

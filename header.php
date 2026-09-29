@@ -4,6 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.svg">
 
 
     <?php wp_head(); ?>
@@ -15,7 +16,7 @@
 
 <header class="odoo-header">
   <nav class="odoo-nav">
-    <a href="<?php echo esc_url( home_url('/2') ); ?>" class="odoo-logo">
+    <a href="<?php echo esc_url( home_url('/') ); ?>" class="odoo-logo">
       <img 
     src="<?php echo esc_url( get_theme_file_uri('/assets/images/ChileOdoo.svg') ); ?>" 
     alt="ChileOdoo" class="odoo-logo-2">
