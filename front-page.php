@@ -3,7 +3,7 @@
 <section class="odoo-hero">
     <div class="odoo-hero-content">
         <h1 class="odoo-hero-title">Tu ERP Odoo en Chile <span class="highlight"> , sin licencia por usuario</span></h1>
-        <p class="text-hero">Odoo Community en servidor dedicado en Santiago, con soporte local. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
+        <p class="text-hero">Odoo Community en servidor dedicado en Chile, con soporte local. Todo en un solo proveedor, con precio transparente y sin alojar tus datos fuera del país.</p>
         <a class="odoo-button hero-button" href="https://www.solisum.cl/book/mi-diagnosticos-chileodoo" target="_blank">Quiero mi diagnóstico gratuito</a>
         <p class="text-hero">Sin costo. Sin compromiso. 20 minutos con un especialista.</p>
     </div>
@@ -67,7 +67,7 @@
         <div class="problem-text">
             <h2 class="dark-main-title">Si hoy <span class="highlight">manejas tu empresa</span> entre Excel, WhatsApp y sistemas desconectados, <span class="highlight">no estás solo.</span></h2>
 
-            <p class="text">Muchas pymes en Santiago llegan a un punto en que Excel, WhatsApp y sistemas desconectados hacen perder tiempo, duplican tareas y dificultan ver el negocio completo. Además, las nuevas exigencias de protección de datos y ciberseguridad ya impactan a empresas de cualquier tamaño que manejen datos de clientes o empleados.</p>
+            <p class="text">Muchas pymes en Chile llegan a un punto en que Excel, WhatsApp y sistemas desconectados hacen perder tiempo, duplican tareas y dificultan ver el negocio completo. Además, las nuevas exigencias de protección de datos y ciberseguridad ya impactan a empresas de cualquier tamaño que manejen datos de clientes o empleados.</p>
 
         </div>
         <div class="card-grid">
